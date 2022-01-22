@@ -1,0 +1,45 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.container{
+    /* margin: auto; */
+    min-height: 60px;
+    max-width: 800px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 1000px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+.chip{
+    /* display: inline; */
+    /* margin-left: auto; */
+    padding: 10px;
+    margin:10px;
+    border-bottom: rgb(138, 82, 82);
+
+    /* line-height: 0px; */
+}
+.chip-1,.chip-2,.chip-3{
+    background: #fff;
+    /* cursor: pointer; */
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    /* margin-left: auto; */
+
+}
+.chip:hover{
+    background-color: #ccc;
+
+}
+.name{
+    display: inline;
+}
+.close-icon{
+    /* font-size: 15px; */
+    cursor: pointer;
+    right: 0px;
+    /* margin-left: auto; */
+}
