@@ -36,6 +36,7 @@
 }
 .name{
     display: inline;
+   cursor: pointer;
 }
 .close-icon{
     /* font-size: 15px; */
